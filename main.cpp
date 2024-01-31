@@ -1,14 +1,14 @@
 #include <iostream>
 
-void wypisz(int a)
+void pomnoz(int a, int b)
 {
-    std::cout << a << std::endl;
+    std::cout << a * b << std::endl;
 }
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    wypisz(1);
+    pomnoz(2, 3);
 
     return 0;
 }
